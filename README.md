@@ -13,6 +13,7 @@ which can be updated efficiently by updating only changes in the actual DOM.
 
 
 **API**
+------------------------------------------------
 
 We will be using the IEX Cloud API to request for latest stock prices.
 
