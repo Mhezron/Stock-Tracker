@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import StockContainer from './containers/StockContainer'
 
-function App() {
+
+const stocks = ['GOOG', 'AAPL', 'FB', 'AMZN', 'NFLX']
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+    <div style={{ backgroundImage: "url(/currency.jpg)" }}>
+      <h1>Stock Tracker</h1>
+      <div class='stocks'>
+        {stocks.map(stock => <StockContainer key={stock} stock={stock} />)}
+      </div>
     </div>
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App
