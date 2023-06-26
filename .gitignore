@@ -6,8 +6,8 @@
 .pnp.js
 
 # ignore .env file
-.env
-
+ .env
+ .env
 # testing
 /coverage
 
