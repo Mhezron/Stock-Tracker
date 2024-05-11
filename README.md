@@ -61,6 +61,9 @@ Contributions to the Stock Tracker are welcome! If you would like to contribute 
 -UI fixes
 
 
+
+
+
 ## License
 
 The Stock Tracker is open source and released under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as per the license terms.
